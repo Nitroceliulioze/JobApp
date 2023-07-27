@@ -34,9 +34,10 @@ const styles = StyleSheet.create({
     height: "100%",
   },
   searchInput: {
+    flexDirection: 'row',
     fontFamily: FONT.regular,
     width: "100%",
-    height: "100%",
+    height: "30%",
     paddingHorizontal: SIZES.medium,
   },
   searchBtn: {
